@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1280px;
+    background: rgb(235, 232, 232);
+    margin: 0 auto;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+}
+.wrapper {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(175, 175, 175);
+    padding: 20px 0;
+}
+.item__list {
+    list-style: none;
+    font-size: 18px;
+}
+.item__list li {
+    padding: 10px 5px;
+    border-bottom: 1px solid black;
+}
+.item__list li:last-child {
+    border-bottom: none;
+}
+.item__btn {
+    padding: 7px 16px 8px;
+    border: 0;
+    box-sizing: border-box;
+    background: rgb(0, 167, 22);
+    color: white;
+    border-radius: 2px;
+    margin: 0;
+    font-size: 12.5px;
+    zoom: 1;
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.item__save {
+    background: #5e81a8;
+    margin-left: 10px;
+}
+.item__delete {
+    background: rgb(240, 0, 0);
+}
+.item__add {
+    padding: 7px 629px 7px 629px;
+    display: block;
+    background-color: #5e81a8;
+}
+.item__value {
+    padding: 10px 86% 10px 10px;
+    border: none;
+    margin: 10px 0 0 0;
+}
